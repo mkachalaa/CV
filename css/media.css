@@ -1,0 +1,132 @@
+/* Media Queries */
+@media (max-width: 990px) {
+	.about-me-container {
+        padding: 70px 60px 70px 60px;
+    }
+    .main-info h1 {
+        font-size: 35px;
+        margin-bottom: 5px;
+    }
+}
+@media (max-width: 980px) and (min-width: 930px) {
+    .projects .dots {
+        display: none;
+    }
+    .projects ol li a {
+        padding-right: 15px;
+    }
+}
+@media (max-width: 930px) {
+    .wrapper {
+        flex-direction: column;
+    }
+    aside {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        padding: 40px;
+    }
+    .sidebar-banner {
+        display: none;
+    }
+    .sidebar-blocks {
+        margin: 30px 20px 0 20px;
+        width: 39%;
+    }
+    .mobile-photo {
+        width: 39%;
+        margin: 30px 20px 0 20px;
+    }
+    .my-photo {
+        width: 100%;
+    }
+}
+@media (max-width: 790px) {
+    .projects .dots {
+        display: none;
+    }
+    .projects ol li a {
+        padding-right: 15px;
+    }
+}
+@media (max-width: 600px) {
+    .mobile-photo {
+        width: 45%;
+        margin: 20px 10px 0 10px;
+    }
+    .sidebar-blocks {
+        margin: 20px 10px 0 10px;
+        width: 45%;
+    }
+    .technology-container {
+        display: block;
+    }
+}
+@media (max-width: 576px) {
+    aside {
+        justify-content: center;
+        padding: 30px;
+    }
+    .mobile-photo {
+        width: 60%;
+        margin: 0px 10px 0 10px;
+    }
+    .main-info h1 {
+        font-size: 30px;
+        line-height: 55px;
+    }
+    .about-me-container {
+        padding: 40px 45px 40px 45px;
+    }
+}
+@media (max-width: 550px) {
+    .sidebar-blocks {
+        width: 55%;
+    }
+    .banner img {
+        width: 100%;
+    }
+    .projects ol {
+        list-style-position: outside;
+    }
+    .projects ol li {
+        margin-left: 18px;
+    }
+}
+@media (max-width: 460px) {
+    .sidebar-blocks {
+        width: 90%;
+    }
+    .sidebar-blocks h3 {
+        font-size: 20px;
+    }
+    .projects a {
+        word-wrap: break-word;
+    }
+}
+@media (max-width: 400px) {
+    .sidebar-blocks a {
+        font-size: 13px;
+        line-height: 18px;
+    }
+    .sidebar-blocks {
+        width: 100%;
+        margin: 20px 0 0;
+    }
+    .mobile-photo {
+        width: 80%;
+        margin: 0px;
+    }
+    .banner {
+        display: none;
+    }
+}
+@media (max-width: 350px) {
+    aside {
+        padding: 15px;
+    }
+    body {
+        padding: 20px;
+    }
+}

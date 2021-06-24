@@ -1,0 +1,236 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #f5f7fa;
+    padding: 40px;
+}
+a {
+    text-decoration: none;
+}
+.wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-shadow: 5px 9px 20px rgba(0, 0, 0, 0.15);
+            box-shadow: 5px 9px 20px rgba(0, 0, 0, 0.15);
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+        transform: translateY(0);
+}
+.wrapper:hover {
+    -webkit-box-shadow: 6px 6px 16px 0 rgba(57,64,77,0.3);
+    -moz-box-shadow: 6px 6px 16px 0 rgba(57,64,77,0.3);
+    box-shadow: 6px 6px 16px 0 rgba(57,64,77,0.3);
+    -webkit-transform: translateY(-7px);
+    transform: translateY(-7px);
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+}
+aside {
+    background-color: #1e2939;
+    width: 370px;
+    padding: 40px 0 40px 0;
+}
+.my-photo {
+    width: 250px;
+    padding-left: 20px;
+}
+.about-me-container {
+    padding: 110px 90px 110px 90px;
+}
+.sidebar-blocks {
+    margin: 55px 40px 0 40px;
+    color: #ffffff;
+}
+.sidebar-blocks a {
+    color: #ffffff;
+    opacity: 0.5;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    -moz-transition: all 0.3s 0.01s ease;
+    -o-transition: all 0.3s 0.01s ease;
+    -webkit-transition: all 0.3s 0.01s ease;
+}
+.sidebar-blocks a:hover {
+    color: hsl(207, 67%, 71%);
+}
+.sidebar-blocks a:last-child {
+    opacity: 1;
+}
+.sidebar-blocks h3 {
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 24px;
+    padding-bottom: 20px;
+}
+.sidebar-banner {
+    text-align: center;
+}
+.contacts img {
+    width: 35px;
+}
+.contacts-row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding-bottom: 0.7em;
+}
+.contacts-row a {
+    padding-left: 10px;
+}
+
+.weblancer {
+    border-radius: 50%;
+}
+
+.git-flex {
+    display: flex;
+}
+.git {
+    width: 30px;
+    height: 30px;
+}
+.skills ul {
+    color: #ff6b08;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+}
+.skills ul li {
+    margin-left: 15px;
+}
+.skills span {
+    color: #d6d8db;
+}
+.main-info {
+    color: #000000;
+    margin-bottom: 60px;
+}
+.main-info h2 {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    margin-bottom: 20px;
+}
+.main-info h1 {
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 89px;
+    margin-bottom: 5px;
+}
+.main-info p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #595959;
+    text-align: justify;
+}
+.projects {
+    margin-bottom: 50px;
+}
+.about-me-title {
+    color: #000000;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 24px;
+    margin-bottom: 10px;
+}
+.projects a {
+    color: #595959;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    -moz-transition: all 0.3s 0.01s ease;
+    -o-transition: all 0.3s 0.01s ease;
+    -webkit-transition: all 0.3s 0.01s ease;
+}
+.projects a:hover {
+    color: hsl(207, 67%, 71%);
+}
+.projects .technology {
+    color: #595959;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+}
+.projects .dots {
+    color: #aeaeae;
+    font-weight: 100;
+    font-size: 14px;
+}
+.projects ol {
+    list-style-position: inside;
+}
+.projects ol li {
+    font-weight: 700;
+}
+.projects ol li a {
+    padding-left: 5px;
+}
+.projects .banner{
+    margin-top: 20px;
+}
+.experience h3 {
+    margin-bottom: 20px;
+}
+.experience h4 {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    margin-bottom: 15px;
+}
+.company {
+    color: #ff6b08;
+}
+.period {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #a2a2a2;
+}
+.divider {
+    color: #000;
+}
+.experience ul {
+    list-style-position: inside;
+    padding: 15px 0 25px 0;
+    color: #595959;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+}
+.experience ul.no-padding {
+    padding: 15px 0 0 0;
+}
+.education {
+    margin-top: 55px;
+}
+.education h4 {
+    color: #ff6b08;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    margin: 20px 0 15px 0;
+}
+.education h5{
+    color: #000;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    margin-bottom: 15px;
+}
