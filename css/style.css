@@ -69,6 +69,10 @@ aside {
 .sidebar-blocks a:last-child {
     opacity: 1;
 }
+.project-qa{
+    padding-top: 10px;
+    
+}
 .sidebar-blocks h3 {
     font-size: 22px;
     font-weight: 700;
@@ -92,6 +96,10 @@ aside {
 }
 .contacts-row a {
     padding-left: 10px;
+}
+.project-qa_a{
+    display: flex;
+    margin-top: 10px;
 }
 
 .weblancer {
