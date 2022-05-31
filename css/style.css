@@ -105,6 +105,10 @@ aside {
 .weblancer {
     border-radius: 50%;
 }
+/* .Github {
+    border-radius: 50%;
+    width: 35px;
+} */
 
 .git-flex {
     display: flex;
