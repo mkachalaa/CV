@@ -11,7 +11,7 @@ a {
     text-decoration: none;
 }
 .wrapper {
-    
+    max-width: 1200px;
     margin: 0 auto;
     background-color: #ffffff;
     display: -webkit-box;
